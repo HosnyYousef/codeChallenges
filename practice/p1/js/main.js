@@ -1,2 +1,13 @@
 let woof = 'humb'
-alert (str.charAt(srt.length - 1))
+alert(woof.charAt(1))
+
+
+
+function checkForSummer(month){
+    let monthLowerCase = month.toLowerCase()
+    if(monthLowerCase === 'june' || monthLowerCase === 'july' || monthLowerCase === 'august'){
+        alert('Yay')
+    }else{
+        alert('Boo')
+    }
+}
