@@ -1,223 +1,249 @@
-function cubeRoot (n1) {
-    console.log (Math.cbrt(n1).toFixed(4))
-}
-cubeRoot(50)
 
-function summerMonth (month) {
-    let monthLowerCase = month.toLowerCase ()
-    if (monthLowerCase === 'june' || monthLowerCase === 'july' || monthLowerCase === 'august'){
-        alert('YAY')
-    }else{
-        alert('Booo')
+
+// // function skipFives (n1){
+// //     for (let i = 1; i <= 5; i++) {
+// //         if (n1%5 === 0){
+// //         console.log (i);
+// //         }
+// //     }
+// // }
+// // skipFives(19)
+
+
+
+
+
+// function skipFives (n1) {
+//     for (let i = 1; i <= n1; i++) {
+//         if (n1 % 5 !== 0){
+//             console.log (i);
+//         }
+//     }
+// }
+// skipFives(15)
+
+
+
+
+// function takesArray (arr) {
+//     if (arr[0] < arr [ arr.length - 1] ) {
+//         alert ('Hi')
+//     }else if
+//         (arr[0] > arr [ arr.length - 1] ){
+//             alert ('bye')
+//     }else{
+//         alert("we close in an hour")
+//     }
+// }
+
+
+
+
+// function takesArray (robot) {
+//     if (arr[0] < arr[arr.length -1])
+// }
+
+
+
+// const stringToNumber = function(str){
+//    return parseInt(str);
+//   }
+
+
+// const stringToNumber2 = str => parseInt(str)
+
+function makeNegative(num) {
+    if (num < 0){
+        return (num)
+    }else if (num * -1){
     }
-}
+  }
 
-function skipFives (n1) {
-    for (let i = 1; n1 < 5; i++) {
-        console.log [n1%5 !== 0];
-    }
-}
-
-function skipFives (n1)
-    for (let i = 1; i < n1; i++) 
-    if (n1 % 5 !== 0){
-        console.log [i];
-    }
-skipFives (15)
-
-
-function skipFives (n1) {
-    for (let i = 1; i < n1; i++) {
-    if (n1%5 !==0){
-        console.log [i]
-        }
-    }
-}
+  const makeNegative2 = num => (num < 0) ? num : (num * -1)
 
 
 
-function skipFives (n1) {
-    for (let i = 1; i <= n1; i++){
-        if (n1 % 5 !== 0){
-            console.log [i]
-        }
-    }
-}
 
 
-function skipFives (n1){
-    for (let i = 1; i <= n1 ; i++){
-        if (n1 % 5 !== 0){
-            console.log (i)
-        }
-    }
-}
+  function makeNegative(num) {
+      if (num < 0){
+          return (num)
+      }else{
+          return (num * -1)
+      }
+  }
+
+  
+
+
 
 
 function even_or_odd(number) {
-    if (number%2 == 0){
-        return ('Even')
+    if (number%2 === 0){
+        return ('even')
     }else{
         return ('odd')
     }
 }
 
-let even_or_odd = number => number%2 ? 'even' : 'odd'
 
-let even_or_odd = number => number%2 === 0 ? 'even' : 'odd'
+const even_or_odd2 = number => (number%2 === 0) ? 'even' : 'odd'
+        
+const even_or_odd3 = number => number%2 ? 'even' : 'odd'
 
-function sumOfDifferences(arr) {
-    return arr.length < 1 ? Math.max (...arr) - Math.min (...arr) : 0
-}
-
-const sumOfDifferences = arr => arr.length < 1 ? Math.max (...arr) - Math.min (...arr) : 0
-
-
-const stringToNumber = function(str){
-    return parseInt(str);
-  }
-
-
-
-
-  function doubleInteger(i) {
-    return i*2;
-  }
-
-
- const doubleInteger = i => i*2
-
-
-
- function makeNegative(num) {
-    for (let i = 0; i < num; i++) {
-        if (num%2 === 0){
-            return (i)
-       }
-    }
-  }
-
-
-
-  Math.abs('-1');     // 1
-  Math.abs(-2);       // 2
-  Math.abs(null);     // 0
-  Math.abs('');       // 0
-  Math.abs([]);       // 0
-  Math.abs([2]);      // 2
-  Math.abs([1,2]);    // NaN
-  Math.abs({});       // NaN
-  Math.abs('string'); // NaN
-  Math.abs();         // NaN
-
-
-
-  const stringToNumber = function(str){
-    return parseInt(str);
-  }
-
-
-  const stringToNumber = str => parseInt(str)
-
-
-  function makeNegative(num) {
-    if (num < 0){
-        console.log (num)
-    }else{
-        (num * -1)
-    }
-  }
-
-  function even_or_odd(number) {
- 
-}
-
-
-function even_or_odd(number) {
-    if (number%2 == 0){
-        return ('even')
-    }else{
-        return('Odd')
-    }
-}
-
-
-const even_or_odd = number => number%2 == 0 ? 'even' : 'Odd'
-
-const even_or_odd = number => number%2 ? 'even' : 'Odd'
-
-
-function even_or_odd(number) {
-    return number % 2 ? "Odd" : "Even"
-  }
-  
-  function even_or_odd(number) {
-    if (number%2 == 0) {
-      return "Even";
-    } else {
-      return "Odd";
-    }
-  }
-  function even_or_odd(number) {
-     return number % 2 === 0 ? 'Even' : 'Odd';
-  }
-  
-  const even_or_odd = n => (n % 2) ? 'Odd' : 'Even';
-  
-  
-  function makeNegative(num) {
-    if (num < 0){
-        return(num)
-  }else{
-      return (num * -1)
-  }
-}
 
 
 function makeNegative(num) {
-    return (Math.abs(-num))
+    if (num < 0) {
+        return (num)
+    }else{
+        return (num * -1)
+    }
   }
 
 
-  function removeEveryOther(arr){
-    //your code here
+
+  function squareOrSquareRoot(array) {
+    return array.length; 
+  }
+
+
+  const array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+
+
+
+function squareOrSquareRoot(array) {
+    return array
+  }
+
+  function squareOrSquareRoot(array) {
+    if (array.map (x => Math.sqrt(x) % 1) ){
+        return (x * x)
+    }else{
+        return (Math.sqrt(x))
+    }
+  }
+
+
+
+  squareOrSquareRoot = array => array.map(x => Math.sqrt(x) % 1 ? x * x : Math.sqrt(x))
+
+
+
+
+
+
+  function calcHypotenuse(a, b) {
+    return (Math.sqrt((a * a) + (b * b)));
   }
   
+  console.log(calcHypotenuse(3, 4));
+  // expected output: 5
+  
+  console.log(calcHypotenuse(5, 12));
+  // expected output: 13
+  
+  console.log(calcHypotenuse(0, 0));
+  // expected output: 0
+  
 
-  function removeEveryOther(arr){
-    return arr.filter((_,index) => index % 2 == 0)
+
+
+
+  function makeNegative(num) {
+    if (num < 0) {
+        return (num)
+    }else{
+        return (num * -1)
     }
+  }
+
+  Syntax
+// Arrow function
+map((element) => { /* ... */ })
+map((element, index) => { /* ... */ })
+map((element, index, array) => { /* ... */ })
+
+// Callback function
+map(callbackFn)
+map(callbackFn, thisArg)
+
+// Inline callback function
+map(function(element) { /* ... */ })
+map(function(element, index) { /* ... */ })
+map(function(element, index, array){ /* ... */ })
+map(function(element, index, array) { /* ... */ }, thisArg)
 
 
-    function removeEveryOther(arr){
-  return arr.filter(function(elem, index) {
-    return index % 2 === 0;
-  });
+
+
+function stringToArray(string){
+
+	// code code code
+
 }
 
 
 
-function removeEveryOther(arr){
-    var newArr=[];
-  for (var i = 0; i < arr.length; i+=2){
-    newArr.push(arr[i]);
-    }
-  return newArr;
+Syntax
+split()
+split(separator)
+split(separator, limit)
+
+
+
+function stringToArray(string){
+    return string.split(' ');
   }
 
 
 
-  function removeEveryOther(arr){
-    //your code here
-    for (var i = 1; i < arr.length;i++){
-        arr.splice(i,1);
-    }
-    return arr;
-  }
 
-
-  const removeEveryOther = arr => arr.filter((item, i) =>  i % 2 == 0);
+const stringToArray = string => string.split(' ');
 
 
 
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+const words = str.split(' ');
+console.log(words[3]);
+// expected output: "fox"
+
+const chars = str.split('');
+console.log(chars[8]);
+// expected output: "k"
+
+const strCopy = str.split();
+console.log(strCopy);
+// expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+
+Syntax
+split()
+split(separator)
+split(separator, limit)
+
+
+Array.prototype.filter()
+The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+
+
+  const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+  const result = words.filter(word => word.length > 6);
   
+  
+  console.log(result);
+  // expected output: Array ["exuberant", "destruction", "present"]
+
+
+  Syntax
+  // Arrow function
+Using this one:
+  filter((element, index) => { /* ... */ } )
