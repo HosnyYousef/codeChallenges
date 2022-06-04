@@ -247,3 +247,15 @@ The filter() method creates a new array with all elements that pass the test imp
   // Arrow function
 Using this one:
   filter((element, index) => { /* ... */ } )
+
+
+  let stopwatch ■ {}
+
+stopwatch.currentTime = 12
+
+stopwatch.tellTime = function(time){
+
+console.log(`The current time is ${time}.`)
+}
+
+stopwatch.tellTime(stopwatch.currentTime)
