@@ -39,4 +39,4 @@ function firstNonConsecutive(arr){
 //     function firstNonConsecutive (arr) {
 //         return (arr.length > 2 || let (i=0; i > arr.length; i++) ?  Math.max [let (i=0; i > arr.length; i++) (...arr) ) : null
 //       }
-    
+ 
