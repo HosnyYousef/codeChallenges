@@ -1,39 +1,38 @@
-function skipFives (n) {
-  for (let i = 1; i <= n; i++) {
-  if (n%5 !== 0){
-    console.log (i)
+function skippingFives (n) {
+  for (let i = 1; i < n; i++) {
+  if (n%5 !==0){
+    console.log(i)
     }
   }
 }
 
-// mistake:
-// I forgot the <= in the for-Loop
 
-
-function hours (arr) {
-  if (arr[0] < arr[arr.length -1]){
-    alert('Hi')
-  }else if (arr[0] > arr[arr.length -1]){
-    alert('Bye')
-  }else{
-    alert ('We close in an hour')
+function hiBye (robot) {
+  if (robot[0] < robot[robot.length -1]){
+    alert ('Hi')
+  }else if (robot[0] > robot[robot.lenth -1]){
+  alert ('bye')
+}else{
+  alert ('we close in an Hour')
   }
 }
 
-function multiNumsInArr(arr){
+
+function takeArray (arr) {
   let product = 1
-  arr.forEach( num => product *= num )
-  alert(product)
+  arr.forEach (num => product *=num )
+  alert (product)
 }
-multiNumsInArr([10,2,3])
-
-
-
-function multiNumsInArr(arr){
+takeArray([10,2,3]
+  
+  
+  
+function woof (arr) {
   let product = 1
-  for(let i = 0; i < arr.length; i++){
-  product *= arr[i]
-  }
-  alert(product)
+  arr.forEach (num => product *= num)
+  alert (product)
 }
-multiNumsInArr([10,2,3])
+woof ([10, 20, 30])
+ 
+
+
