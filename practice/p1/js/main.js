@@ -1,171 +1,121 @@
-function skillFives (n) { 
+function skipFives (numbers) {
+  for (let i = 1; i < numbers; i++) {
+  if (numbers%5 !== 0){
+    console.log (i)
+    }  
+  }
+}
+
+
+
+function skipFives2 (n){
   for (let i = 1; i <= n; i++) {
   if (n%5 !== 0){
     console.log(i)
-    }
+   } 
   }
 }
-skillFives(50,20,30)
+skipFives2(15)
 
 function takeInArray (arr) {
-  if (arr [0] < arr[arr.length -1]){
-    alert ('HI')
-  }else if (arr [0] > arr[arr.length-1]){
-    alert ('BYE')
+  if (arr[0] < arr[arr.length -1]){
+    alert ("Hi")
+  }else if (arr[0] > arr[arr.length -1]){
+    alert ("Bye")
   }else{
-    alert ('We close in an hour')
-  }
-}
-takeInArray (40, 50, 13)
-
-
-function multiplyArr (arr) {
-  let product = 1
-  let arr.map [x => product *= x]{
-  alert (product)
+    alert ("We close in an hour")
   }
 }
 
 
-function takeInArray2 (arr) {
+
+function multiplyProduct (arr) {
   let product = 1
-  let arr.forEach (x => product *= x)
+  alert (arr.filter ( x => product *= x))
+}
+
+
+function multiplyProduct2 (arr) {
+  let product = 1
+  arr.forEach (x => product *= x)
   alert (product)
 }
+multiplyProduct2([2,4,6])
 
-function takeInArray3 (arr){
+
+function multiplyProduct3 (arr) {
   let product = 1
-  arr.forEach (x =>product *= x)
-  alert (product)
+  arr.forEach (x => product *= x)
+  alert(product)
 }
-takeInArray3 (10,30,40)
-
-function takeInArray4 (arr){
-  let product = 1
-  arr.map (x => product *= x)
-  alert (product)
-}
-takeInArray4 (10, 40, 50, 100)
+multiplyProduct3 ([2,4,6])
 
 
-//psudeo code:
-//
-
-function newArr (numbers) {
-  let newArray = numbers.length 
+function returnNewArr (n) {
+  if (arr%2 ===0){
+    return ([arr])
+  }
 }
 
-let evens = []
 
-//---------------------------
-
-
-function onlyEvens (numbers) {
-  let even = []
-
-  numbers.forEach(n => {
-    if (n % 2 === 0){
-      even.push(n)
-    } 
-  })
-  return even
-}
-console.log (onlyEvens([1,2,3,4,5,6]))
-
-
-function onlyEvens2 (numbers) {
+function onlyEvens(nums){
   let evens = []
+  //return a new array containing even numbers
+  //so we are going to create a new array using literal notation (an empty array to store all the even values)
 
-  array.forEach(n => {
-    if (n % 2 === 0){
-      evens.push(n)
-    }
+  nums.forEach( n => {
+      if(n % 2 === 0){
+          evens.push(n)
+      }
   })
-  return (numbers)
-}
-
-console.log ([1,2,3,4,5,6])
-
+//we have to loops through the nums array (we can use forEach)
+//we need to take in each of the elements (we will call it n)
+//we need to see if the number is even, when the number is even, we push it into the array 
 
 
-function onlyEvens3 (numbers) {
-  let evens = []
-
-  numbers.forEach(n => {
-    if (n % 2 === 0){
-      evens.push (n)
-    }
-  })
-  return (numbers)
-}
-
-console.log ([1,2,3,4,5,6])
-
-
-function onlyEvens4 (numbers) {
-  let evens = []
-
-  numbers.forEach (n => {
-    if (n%2 === 0){
-      evens.push(n)
-    }
-  })
   return evens
 }
+//then we return the new array
 
-console.log ([1,2,3,4,5,6])
+console.log( onlyEvens([1,2,3,4,5,6]) )
+// we want to see it
+
+
+
+
+const toFreud = str => str === '' ? '' : str.split(' ').map(e => 'sex').join(' ')
 
 
 
 
 
+
+const toFreud2 = string => '' ? '' : string.split(' ').map(n => 'sex').join (' ')
+
+
+
+
+const toFreud3 = string => '' ? '' : string.split(' ').map(n => 'sex').join(' ')
+
+
+
+
+
+const toFreud4 = string => '' ? '' : string.split(' ').map(n => 'sex').join('')
+
+
+
+
+function toFreud5 (string){
+  return '' ? '' : string.split(' ').map(x => 'sex').join('')
+}
+
+const toFreud = string => string === '' ? '' : string.split(' ').map(x => 'sex').join (' ')
 
 
 function squareOrSquareRoot(array) {
   return array; 
 }
 
+const squareOrSquareRoot = array => array%2 === 0 : array : Math.sqrt(x => array *2)
 
-
-
-const squareOrSquareRoot = array => array.map(x => array%2 === 0) ? squareOrSquareRoot(array) : array.sqrt 
-
-squareOrSquareRoot = array => array.map(x => Math.sqrt(x) % 1 ? x * x : Math.sqrt(x))
-
-
-squareOrSquareRoot = array => array.map(x => Math.sqrt(x) % 1 ? x * x : Math.sqrt(x) )
-
-function squareOrSquareRoot(array) {
-  if (Math.sqrt(x) % 1){
-    return (x * x)
-  }else{
-    return Math.sqrt(x)
-  }
-} 
-
-
-
-
-function squareOrSquareRoot(array) {
-  if (array.map (x => Math.sqrt(x)% 1)){
-    return (x * x)
-  }else{
-    return (Math.sqrt(x))
-  }
-}
-
-
-class Kata {
-  static getVolumeOfCuboid(length, width, height) {
-    // your code here
-  }
-}
-
-const kata = {
-  getVolumeOfCuboid : (length, width, height) => length * width * height
-}
-
-
-function toFreud(string) {
-  return string.join(" ")
-  }
