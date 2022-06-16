@@ -1,48 +1,61 @@
-function positiveSum(arr) {
-  arr.forEach (n => {
-    if (n >= 0){
-      return (arr)
+function skipFives (n) {
+  for (let i = 1; i <= n; i++) {
+  if (n%5 !== 0){
+    console.log(i)
     }
-  }) 
-}
-
-
-
-function positiveSum2 (arr) {
-  let total = 0
-  for (let i = 0; i < array.length; i++) {
-  if (arr[i] > 0) {
-    total += arr[i]
-   } 
   }
-   return total
 }
 
-
-
-function positiveSum3(arr) {
-  let total = 0
-  for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > 0){
-    return (arr += arr[i])
-    } 
+function hiBye (arr) {
+  if (arr[0] < arr[arr.length -1]){
+    alert ('Hi')
+  }else if (arr[0] > arr[arr.length -1]){
+    alert ('bye')
+  }else{
+    alert ('We close in an hour')
   }
-  total 
 }
 
-function positiveSum4 (arr) {
-  let total = 0
+function multiplyNum (arr) {
+  let product = 1
+
+  arr.forEach(n => product *= n)
+    alert(product)
+}
+multiplyNum(2,4,6)
+
+
+function onlyEvens (arr) {
+  let evens = []
 
   for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > 0){
-    total += arr[i];
-   } 
+  if (i%2 === 0){
+    return evens
+    }
   }
-  return total
+}
+
+function onlyEvens2 (arr) {
+  let evens = []
+
+  arr.forEach (n => {
+    if (n%2 === 0){
+      return evens
+    }
+  })
+  evens (i)
 }
 
 
+function onlyEvens3 (arr) {
+  let evens = []
 
-
-
+  arr.forEach(n => {
+    if (n%2 ===0){
+      arr.push (n)
+    }
+  })
+  return evens
+}
+console.log (arr([1,2,3,4,5,6]))
 
