@@ -1,252 +1,237 @@
-function skipFives (n) {
-    for (let i = 1; i <= n; i++) {
-    if (n%5 !==0){
-        console.log(i)
-    }        
- }
-}
-skipFives(15, 2, 4, 6)
-
-
-function skipFives2 (n){
-    for (let i = 1; i <= n; i++) {
-    if (i%5 !==0){
-        console.log(i)
-     }   
+function skipFives (n){
+    for (let i = 1; i < n; i++) {
+    if (i%5 !== 0){
+            console.log(i)
+        }   
     }
 }
+skipFives (15)
 
-function multiplyEachNumber (number){
+
+function multiplyNumb (arr) {
     let product = 1
 
-    let number.forEach (x => product * x){
-        alert (product)
-    }
+    arr.forEach (x => product *= x)
+    alert (product)       
 }
-multiplyEachNumber(15)
-
-
-
-
-function multiplyEachNumber2 (number) {
-    let product = 1
-
-    number.forEach (x => product *= x)
-    alert (product)
-}
-
-multiplyEachNumber2 (15)
+multiplyNumb (15, 20, 25)
 
 
 function onlyEvens (arr) {
-    let evens = arr
+    let evens = 0
 
-    evens.forEach (x => {
-        if (x%2 === 0){
-            evens.push(x)
-        }
+    arr.forEach (x => {
+    if (x%2 ===0){
+        evens.push (x)
+        }    
     })
-    console.log ([1,2,3,4,5,6])
+    return evens
 }
+console.log (arr([2,4,6,8,10]))
+
+
 
 
 function onlyEvens2 (arr) {
     let evens = []
 
-    evens.forEach (n => {
-        if (n%2 ===0){
-            evens.push(n)
+    arr.forEach (x => {
+        if (x%2 ===0){
+            evens.push(x)
         }
     })
     return evens
 }
-console.log (onlyEvens([1,2,3,4,5,6]))
+console.log (arr([2,4,6,8,10]))
+
+let woof = woof2
+
+const woof2 = x => dogman ? "true" : "false"
+
+let duck = true
+alert (duck)
+
+let haveADuck = true
+alert (haveADuck)
 
 
 
 
-
-
-function skipFives3 (n) {
-    for (let i = 1; i < n; i++) {
-    if (i%5 !== 0){
-        console.log(i)
-     }   
-    }
+function postiveSum (arr) {
+    return arr.reduce((prev, current) => {
+        if (current > 0) {
+            return prev + current;
+        }
+        return prev
+    }, 0)
 }
-skipFives3 (15, 20, 60)
 
 
+function postiveSum2 (arr) {
+    return arr.reduce ((prev, current) => {
 
-function skipFives4 (n) {
-    for (let i = 1; i <= n; i++) {
-    if (i%5 !== 0) { 
-        console.log(i)
-     }
-    }
+    })
 }
-skipFives4 (15)
 
 
 
 
 function positiveSum(arr) {
-  let postiveArr = arr.reduce (arr)
+  return arr.reduce ((prev, current) {
 
-  postiveArr.reduce ((previousValue, currentValue) => { /* ... */ } )
+  })
 }
 
 
-function positiveSum2 (arr) {
-    return arr.reduce((prev, current) => {
-        if (current > 0) {
-            return prev + current;
+function positiveSum(arr) {
+    return arr.reduce ((prev, current) => {
+
+    })
+}
+
+
+
+
+function positiveSum(arr) {
+    return arr.reduce ((prev, current) => {
+        if (current > 0){
+            return prev + current
         }
-    
         return prev
     }, 0)
 }
 
-function postiveSum (arr) {
-    let total = 0
-    for (let i = 0; i < array.length; i++) {
-    if (i>0){
-        return total
-     }
-        
-    }
+
+
+function positiveSum(arr) {
+    return arr.reduce ((prev, current)=> {
+        if (current > 0){
+            return prev + current
+        }
+            return prev
+    },0)
 }
 
-function postiveSum (arr) {
-
-}
+arr.reduce (x => y , 0)
 
 
-function postiveSum (arr) {
-    
-}
-
-function postiveSum (arr) {
-    let total = 0
-    for (let i = 0; i < array.length; i++) {
-    if (arr[i]>0){
-        total += i
-    }
-        
-    }
+function positiveSum(arr) {
+    return arr.reduce((prev, current) => {
+        if (current > 0){
+            return prev + current
+        }
+            return prev
+    }, 0)
 }
 
 
 
-function postiveSum (arr) {
-    let total = 0
-    for (let i = 0; i < array.length; i++) {
-    if (arr[i]> 0)
-        total += arr[i]
-        
-    }    
-return postiveSum
+
+function positiveSum(arr) {
+    return arr.reduce((prev, current) => {
+        if (current > 0){
+            return prev + current
+        }
+            return prev
+    }, 0)
 }
 
 
-function postiveSum (arr) {
-    let total = 0
-    for (let i = 0; i < array.length; i++) {
-    if (arr[i]>0)
-        total += arr[i]
-    }   
-   return total
-}
-
-
-
-function postiveSum (arr) {
+function positiveSum(arr) {
     let sum = 0
-    
-    for (let i = 0; i < array.length; i++) {
+
+    for (let i = 0; i < arr.length; i++) {
     if (arr[i]> 0){
-    total += arr[i]
-    }
-        
-    }
-return sum
-}
-
-
-function positiveSum4 (robot) {
-    let sum = 0
-
-    for (let i = 0; i < array.length; i++) {
-    if (robot[i]> 0){
-    sum += robot[i]
+        sum += arr[i]
         }
     }
-return sum
+    return sum
 }
 
-function positiveSum5 (woofManBark) {
-    let woofSum = 0
 
-    for (let i = 0; i < array.length; i++) {
-    if (woofManBark[i]> 0){
-    woofSum += woofManBark[i]
-        }    
+function positiveSum(arr) {
+  let sum = 0
+
+  for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > 0){
+      sum += arr[i]
     }
-return woofSum
-}
-
-
-let user = {}
-
-user.name = "John"
-user.surname = "Smith"
-
-user.name = "Pete"
-
-delete user.name
-
-
-let user = {}
-user.name = "John"
-user.surname = "Smith"
-user.name = "Pete"
-delete user.name
-
-let user = {}
-user.name = "John"
-user.surname = "Smith"
-user.name = "Pete"
-delete user.name
-
-
-
-
-let isEmpty = {}
-
-if (isEmpty = {}){
-    return ("true")
-}else{
-    return ("false")
-}
-
-
-let user = {
-    name: "John",
-    age: 30,
-    isAdmin: true
-  };
-  
-  for (let key in user) {
-    // keys
-    alert( key );  // name, age, isAdmin
-    // values for the keys
-    alert( user[key] ); // John, 30, true
   }
+  return sum
+}
 
 
-  function isEmpty2(obj) {
-      for (let key in obj) {
-          return false
-      }
+
+let user = []
+user.name = "John"
+user.surname = "Smith"
+user.name = "Pete"
+delete user.name
+
+let user = {}
+user.name = "John"
+user.surname = "Smith"
+user.name = "Pete"
+delete user.name
+
+function isEmpty (obj) {
+    for (let key in obj) {
+        return false
+    }
         return true
-  }
+}
+
+
+
+
+
+function isEmpty (obj) {
+    for (let key in obj) {
+        return false
+    }
+        return true
+}
+
+
+function isEmpty (obj) {
+    for (let key in obj){
+        return false
+    }
+        return true
+}
+
+for (let prop in obj)
+
+
+function isEmpty (obj) {
+    for (let key in obj) {
+        return false
+    }
+        return true
+    }
+
+let object = {}
+user.name = "John"
+user.surname = "Smith"
+user.name = "Pete"
+delete user.name
+
+
+
+
+
+function isEmpty (obj) {
+    for (let key in obj){
+        return false
+    }
+        return true
+}
+
+
+
+function isEmpty (obj) {
+    for (let key in obj){
+        return false
+    }
+        return true
+}
