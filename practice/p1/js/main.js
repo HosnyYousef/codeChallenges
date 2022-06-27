@@ -9,3 +9,7 @@ function check(a, x) {
   function check(a, x) {
     // your code here
   }
+
+
+  parseInt(string)
+  parseInt(string, radix)
