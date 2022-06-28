@@ -1,15 +1,71 @@
-
-//my answer
-function check(a, x) {
-    return (a.includes(x))
+function skippingFives (n){
+  for (let i=1; i<n; i++) {
+  if (i%5 !==0) {
+    console.log(i)
+    }
   }
+}
 
-  const check = (a,x) => a.includes(x);
+skippingFives(15)
 
-  function check(a, x) {
-    // your code here
+
+
+
+function skippingFives2 (n){
+  for (let i=1; i<=n; i++){
+  if (i%5 !==0){
+    console.log (i)
+    }
   }
+}
 
 
-  parseInt(string)
-  parseInt(string, radix)
+function onlyEvens (arr) {
+  let evens = []
+
+  arr.forEach (n => {
+    if (n%2 === 0){
+      evens.push (n)
+    }
+  })
+  return evens
+}
+console.log (arr([1,2,3,4,5,6]))
+
+
+function onlyEvens2 (arr) {
+  let evens = []
+
+  arr.forEach (n => {
+    if (n%2 === 0){
+      evens.push (n)
+    }
+  })
+    return evens
+}
+
+console.log (onlyEvens2([1,2,3,4,5,6]))
+
+
+
+
+let woof = woof2
+woof = true
+
+
+
+
+
+let duck = true
+alert (duck)
+
+
+function positiveSum(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) {
+      sum += arr[i];
+      }
+  }
+  return sum;
+}
