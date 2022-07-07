@@ -25,4 +25,24 @@ function fizzBuzz (n) {
     }
 }
 
+let movies = ['batman', 'fatman', 'strongMan']
+let firstMovie = movies[0]
+
+let arrLength = movies.length 
+console.log (arrLength)
+
+let LastElement = movies [movies.length -1]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
