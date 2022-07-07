@@ -1,48 +1,18 @@
-function onlyEvens (arr) {
-    let evens = []
+let movies = ['fooman', 'batman', 'superman']
 
-    arr.forEach (x => {
-        if (x%2 ===0){
-             evens.push(x)
-        }
-    })
-        return evens
-}
-console.log (onlyEvens([1,2,3,4,5,6]))
-
-
-function fizzBuzz (n) {
-    for (let i=1; i <= n; i++){
-    if (i%3 === 0){
-        console.log ('buzz')
-        }else if (i%5 === 0){
-            console.log ('fizz')
-        }else if (i%3 === 0 && i%5 === 0){
-            console.log ('fizzbuzz')
-        }else{
-            console.log (i)
-        }
-    }
-}
-
-let movies = ['batman', 'fatman', 'strongMan']
 let firstMovie = movies[0]
 
-let arrLength = movies.length 
-console.log (arrLength)
+let movieLength = movies.length
+console.log (movieLength)
 
-let LastElement = movies [movies.length -1]
-
-
+let lastElement = movies [movies.length - 1]
 
 
 
+let MovieTitles = ['fooman', 'batman', 'superman']
 
+for (i = 0; i < MovieTitles.length; i++){
+    document.querySelector('h2').innerText += MovieTitles[i]
+}
 
-
-
-
-
-
-
-
+let array of 
