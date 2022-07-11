@@ -37,6 +37,59 @@ footer {
 
 }
 
+
+/****************************** 
+LOOKBOOK
+ *******************************/
+
+/* .LookbookSection {
+     float: left;
+} */
+
+
+/* 
+.LookbookAllRowsImg {
+     float: left;
+} */
+
+.trimSquare{
+     object-fit: cover;
+}
+
+.LookbookAllRows {
+     width: 100%;
+     height: auto;
+     display: flex;
+     padding: 0 26%;
+     border: 1px solid black;
+     margin: 0 10%;
+}
+
+.row1 {
+     flex-direction: column;
+     padding: 1%;
+}
+
+.row2 {
+     flex-direction: column;
+     padding: 1%;
+
+}
+
+.row3{
+     flex-direction: column;
+     padding: 1%;
+
+}
+
+
+.lastImg{
+     object-fit: cover;
+}
+
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
