@@ -61,8 +61,8 @@ LOOKBOOK
      height: auto;
      display: flex;
      padding: 0 26%;
-     border: 1px solid black;
-     margin: 0 10%;
+     /* border: 1px solid black; */
+     justify-content: center;
 }
 
 .row1 {
