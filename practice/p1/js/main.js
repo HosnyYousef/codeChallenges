@@ -1,17 +1,25 @@
-// let movies = ['woof', 'man', 'barks']
-// for (let i=0; i<movies.length; i++){
-//     document.querySelector('h2').innerText += movies[i]
+// let favFood = 'hot dog'
+// favFood = 'burgers'
+// alert (favFood)
+
+// let variable = 'string'
+// let index = 4
+// alert(variable.charAt(index))
+
+// function numbers (n1, n2, n3) {
+//     alert (n1 * n2) / n3
+// }
+// numbers (2, 4, 6)
+
+// function reduceDecimal (n1) {
+//     console.log (Math.cbrt(n))
 // }
 
-let nums = [20, 50, 60]
+// function reduceDecimal (n1) {
+//     console.log (Math.cbrt(n1).toFixed(4))
+// }
+// reduceDecimal (15)
 
-nums.forEach ((item, i)=>{
-    nums[i] = item + 3
-})
-
-
-var total = 0;
-for(var i = 0; i < grades.length; i++) {
-    total += grades[i];
-}
-var avg = total / grades.length;
+// function bestMonths (months) {
+//     let bestMonths = months.lowerCase ()
+// }
